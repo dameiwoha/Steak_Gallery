@@ -1,0 +1,74 @@
+#contact_body { background:#000; }
+#cont_Form {
+    margin:2vh 4vh; }
+
+.feedback-input {
+    color:white;
+    font-weight:500;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #6b1219;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:2px solid #6b1219; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+
+    width: 100%;
+    background:#6b1219;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+#cont_H2{
+    color: #fff;
+    margin-top: 2vh;
+    font-size: 1.5vw;
+    margin-left: 52vw;
+}
+
+
+#map {
+
+    padding-top:2vh;
+    padding-left: 15px;
+
+}
+#map_P{
+    height: 40vh;
+    margin-top:2vh;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 2vw;
+}
+#cont_H2_2{
+    color: #fff;
+    margin-top: 2vh;
+    font-size: 2vw;
+    margin-left: 1vw;
+    display: block;
+}

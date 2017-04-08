@@ -1,0 +1,352 @@
+/*------仿宋體----*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+body {
+    font-size: 62.5%;
+    line-height: 1;
+    color: #414141;
+    background: #f5f0e4;
+}
+
+br {
+    display: block;
+    line-height: 1.6em;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+
+.info_list li {
+    list-style: none;
+}
+.form_list li {
+    list-style: none;
+    text-align: justify;
+}
+.light_fri h3{
+    color: #FFFFFF;
+}
+tr th{
+    font-size: 20px;
+}
+
+
+.light td h3{
+    color: #FFFFFF;
+}
+
+input, textarea {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+strong, b {
+    font-weight: bold;
+    color: #6B1219;
+}
+
+em, i {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+#title h1 {
+    color: #fff;
+    text-shadow: 1px 2px 0 #6B1219;
+    font-size: 4.3em;
+    line-height: 1.1em;
+    padding: 6px 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+#content_list {
+    width: 100%;
+    height: 98vh;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.steps {
+    width: 100%;
+    height: 50px;
+    /*background-color: #ddd;*/
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.steps ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+.steps ul li a {
+    padding: 30px 90px;
+    background-color: #6B1219;
+    display: inline-block;
+    margin: 30px;
+    font-size: 25px;
+    color: #fff;
+    outline: 1px solid #6B1219;
+    text-decoration: none;
+}
+
+.steps ul li:nth-child(1) a {
+    background-color: #fff;
+    color: #444;
+}
+
+.steps ul li:nth-child(3) a {
+    background-color: #fff;
+    color: #444;
+}
+
+/* page structure */
+#w {
+    display: block;
+    width: 800px;
+    margin: 100px auto;
+}
+
+#title {
+    display: block;
+    width: 100%;
+    background: #000;
+    padding: 15px 0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#page {
+    display: block;
+    background: #fff;
+    padding: 15px 0;
+}
+
+/** cart table **/
+#cart {
+    display: block;
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+    font-size: 1.2em;
+    color: #444;
+}
+
+#cart thead th {
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+#cart thead th.first {
+    width: 175px;
+}
+
+#cart thead th.second {
+    width: 230px;
+}
+
+#cart thead th.third {
+    width: 180px;
+}
+
+#cart thead th.fourth {
+    width: 100px;
+}
+
+#cart thead th.fifth {
+    width: 120px;
+}
+
+#cart thead th.sixth {
+    width: 20px;
+}
+
+#cart tbody td {
+    text-align: center;
+    margin-top: 4px;
+    color: #000;
+    font-size: 15px;
+}
+
+tr.productitm {
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #d7dbe0;
+}
+
+#cart tbody td img.thumb {
+    vertical-align: bottom;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+}
+
+.qtyinput {
+    width: 33px;
+    height: 22px;
+    border: 1px solid #a3b8d3;
+    background: #dae4eb;
+    color: #616161;
+    text-align: center;
+}
+
+tr.totalprice, tr.extracosts {
+    height: 35px;
+    line-height: 35px;
+}
+
+tr.extracosts {
+    background: #6B1219;
+}
+
+.remove {
+    /*http://findicons.com/icon/261449/trash_can?id=397422 */
+    /*cursor: pointer;*/
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+
+.light {
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45);
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.thick {
+    color: #272727;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+/** submit btn **/
+tr.checkoutrow {
+    background: #6B1219;
+}
+
+td.checkout {
+    padding: 12px 0;
+    padding-top: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+/* http://codepen.io/guvootes/pen/eyDAb */
+#submitbtn {
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    font-size:18px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #f9ae3b;
+}
+#submitbtn a{
+    text-decoration: none;
+}
+
+
+.info, .invoice {
+    width: 80%;
+    padding-left: 20%;
+}
+.extracosts td h3{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.roundbox_center_3 {
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.roundbox_center_3 h2, .invoice h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #444;
+    letter-spacing:3px;
+}
+
+.info li, .invoice li {
+    padding: 10px;
+    color: #444;
+    font-size: 15px
+}
+
+.getgoods > .store, .unchose, .unchoicemsg, .fancySelectStore {
+    float: left;
+    padding-right: 10px;
+}
+
+li #customeraddress {
+    width: 600px;
+}
+.phone h3 label{
+    letter-spacing:3px;
+    line-height: 1.3;
+}
+.address h3 label{
+    letter-spacing:3px;
+    line-height: 1.3;
+}
+.name h3 label{
+    letter-spacing:3px;
+    line-height: 1.3;
+}
+.payment > h3 {
+    float: left;
+    padding-right: 5px;
+    letter-spacing:3px;
+}
+
+#buyaddress, #buyphone, #buyname {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 4px;
+    /* box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1); */
+    border: 1px solid #6b1219;
+    width: 230px;
+    font-size: 1.1vw;
+}
+
+#buyphone_alert .buyphone_alert {
+    width: 160px;
+    height: 20px;
+    background-color: #eebe69;
+    text-align: center;
+    font-size: 16px;
+    color: #670000;
+    padding-top: 3px;
+    display: block;
+    z-index: 10;
+    margin-top: -20px;
+}

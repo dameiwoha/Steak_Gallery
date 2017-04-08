@@ -1,0 +1,82 @@
+.fine_wine{
+    /*background-color: #000000;*/
+    background: url("../imgs/wind_find2.png") no-repeat  40% ;
+    /*background-attachment:fixed;*/
+}
+.form-group_b {
+    margin: 10px 0;
+}
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.login_in{
+    font-size: 3em;
+    color: #ffffFF;
+}
+.form {
+    position: relative;
+    background: rgba(107, 18, 25, 0.9);
+    max-width: 300px;
+    margin: 5% auto;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    text-transform: uppercase;
+    outline: 0;
+    background:#000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+/*.form button:hover,.form button:active,.form button:focus {*/
+/*background: #43A047;*/
+/*}*/
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #ef3b3a;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+
+.fond_wine2{
+    font-size: 2em;
+    color: #ffffFF;
+}
+
+textarea {
+    height: 50px;
+    line-height: 150%;
+    resize: vertical;
+    background: #f2f2f2;
+    font-size: 20px;
+    width: 300px;
+}
+.find_abc h3 {
+    line-height: 1.5;
+    color: #edb91d;
+}

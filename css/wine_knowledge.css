@@ -1,0 +1,168 @@
+/*------仿宋體----*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+#home_footer{
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+}
+
+#knowledge_body {
+    height: 100%;
+    background-color: #efe5d3;
+}
+
+.know1 {
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+.know1::before {
+    content: "品酒小知識";
+    display: block;
+    width: 40%;
+    height: 20%;
+    color: #fff;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-family: cwTeXFangSong;
+
+}
+
+.know1 img {
+    width: 85%;
+    vertical-align: middle;
+}
+
+.know00002 {
+    /* margin-top: 20px;
+    background-color: #f9f6ef; */
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 7vh;
+}
+
+.know00002 p {
+    color: #6b1219;
+    font-size: 3vw;
+    margin-top: 2vh;
+}
+
+.knowbox {
+
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    transform: scale(0.8);
+}
+
+.knowbox img {
+    width: 100%;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.knowbox:hover {
+    transform: scale(1);
+    /* padding: 30px; */
+    overflow: hidden;
+    transform: scale(0.8);
+}
+
+.knowbox:hover img {
+    transform: scale(1.3);
+}
+
+.knowbox:before, .knowbox:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: 1s;
+    z-index: 2;
+}
+
+.knowbox:before {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(91, 25, 39, 0);
+}
+
+.knowbox:hover:before {
+    background-color: rgba(91, 25, 39, .7);
+}
+
+.knowbox:after {
+
+    width: 300px;
+    height: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    transform: rotateX(0deg);
+    color: rgba(255, 255, 255, 0);
+}
+
+.knowbox:hover:after {
+    transform: rotateX(360deg);
+    color: rgba(255, 255, 255, 1);
+}
+
+#img00001:after {
+    content: '紅酒';
+}
+
+#img00002:after {
+    content: '粉紅酒';
+}
+
+#img00003:after {
+    content: '白酒';
+}
+
+.know3 img {
+    width: 100%;
+}
+
+.know4 img {
+    width: 100%;
+}
+
+.know4 p {
+    color: #6b1219;
+    font-size: 3vw;
+    margin: 9vh 0 5vh 0;
+    text-align: center;
+
+}
+
+#gototest {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #e7d8a5;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.know4 a {
+    text-decoration: none;
+    font-size: 1.8vw;
+    color: #6b1219;
+
+}

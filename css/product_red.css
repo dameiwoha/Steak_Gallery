@@ -1,0 +1,83 @@
+/*------仿宋體----*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+#wine1_body {
+    background-color: #f5f0e4;
+    height: 112vh;
+}
+.thumbnail li {
+    vertical-align: top;
+}
+
+.bar{
+    position: fixed;
+}
+.c-sm-9.wine_products_box {
+margin: 20px 0px;
+
+text-align: center;}
+
+/*.c-sm-9.wine_products_box {*/
+    /*margin: 20px 0px;*/
+    /*float: right;*/
+/*}*/
+ul.thumbnail {
+    display: inline-block;
+    /*width: 410px;*/
+    width: 36vw;
+}
+
+/*a.single_product {*/
+    /*padding: 135px;*/
+/*}*/
+
+.caption {
+    /*margin: 0 80px 0 80px;*/
+}
+
+
+ul.pagination li{
+    display: inline-block;
+}
+ul.pagination li a{
+    text-decoration: none;
+    color: #6B1219;
+   
+}
+
+ul.pagination{
+    text-align:center;
+    margin-left: 10vw;
+
+}
+
+/*ul.pagination{*/
+    /*margin:auto;*/
+    /*right: 0;*/
+    /*left:0;*/
+    /*float: right;*/
+
+/*}*/
+
+.caption h5{
+    font-size: 16px;
+    padding:2px;
+    /*margig:15px;*/
+}
+
+.add_car{
+    color:#6b1219;
+    font-size: large;
+}
+
+.label-info{
+    line-height: 30px;
+    color: #6b1219;
+}
+
+.fa{
+    padding-left: 5px;
+}
+.qty{
+    width: 50px;
+    height: 30px;
+}

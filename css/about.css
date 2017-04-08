@@ -1,0 +1,186 @@
+
+body{
+    background-color: #000;
+}
+
+.about {
+
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+#about01{
+    background-attachment: fixed;
+    background-image: url('../imgs/about/about_00_01.jpg');
+    background-size: cover;
+
+}
+
+.art_h2{
+    text-align: center;
+    position: absolute;
+    top: -10vw;
+    bottom: 0;
+    left: 0;
+    right: -50vw;
+    margin: auto;
+    display: block;
+    height: 350px;
+
+}
+
+
+.art_h2 h2{
+    color: #f8f8f8;
+    border-bottom: 1px solid #ffF;
+    font-weight: normal;
+    font-size: 4vw;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    font-family: cwTeXFangSong;
+
+}
+
+.art_h2 p{
+    color:#fff;
+    font-size: 1.3vw;
+    margin-top: 11px;
+    line-height: 40px;
+    text-align: left;
+    text-transform:uppercase;
+
+}
+
+.art_h2 p:after{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#about1 {
+    background-color: #faa;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#about2 {
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20vh;
+}
+
+#about2 .ab_img2 img{
+    position: absolute;
+    right: 10vw;
+    height: 90%;
+    top: 10%;
+}
+
+#about2 .ab_img3 img{
+    position: absolute;
+    left: 7vw;
+    height: 90%;
+    top: 10%;
+}
+
+#about2 .about_h2{
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4vw;
+    display: block;
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-family: cwTeXFangSong;
+}
+
+#about3 a{
+    display: block;
+    position: relative;
+}
+
+
+
+
+#about3 {
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+
+}
+
+
+#about3 img:hover{
+
+    transform: scale(1.1);
+    transition: all .9s ease-in-out;
+
+
+
+}
+.ab3_left{
+    overflow: hidden;
+    height: 40vh;
+}
+.ab3_middle{ overflow: hidden;
+    height: 40vh;}
+.ab3_right{ overflow: hidden;
+    height: 40vh;}
+
+
+.ab3_left img{
+    width: 100%;
+}
+
+
+
+.ab3_middle img{
+    width: 100%;
+}
+
+.ab3_right img{
+    width: 100%;
+}
+
+
+
+#about4 {
+
+    background-attachment: fixed;
+    height: 70vh;
+
+
+
+}
+#about4 h2{
+
+    color: #f8f8f8;
+    border-bottom: 1px solid #ffF;
+    font-weight: normal;
+    font-size: 4vw;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    margin: 0 50px 20px 50px;
+    font-family: cwTeXFangSong;
+}
+
+#about4 p{
+    color: #f8f8f8;
+    font-size: 1.3vw;
+    margin: 20px 50px 20px 50px;
+    line-height: 50px;
+    text-transform:uppercase;
+
+}
+.p_bgcolor{
+    width: 100%;
+    background-color: #000;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+[class*="column"] + [class*="column"]:last-child {
+    float: right
+}
+
+[class*="column"] + [class*="column"].end {
+    float: left
+}
+
+.row ul, ol, dl {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    list-style-position: outside;
+    font-family: inherit
+}

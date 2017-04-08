@@ -1,0 +1,55 @@
+.age_page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../imgs/age_img/sp_bg.png") no-repeat right bottom ;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  background-color: #000; }
+  .age_page > h1 {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    margin-left: -213px;
+    display: block;
+    width: 452px;
+    height: 131px;
+    background-image: url("../imgs/age_img/age_title.png");
+     }
+  .age_page .age_btnbox {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    margin-left: -199.5px;
+    width: 432px;
+    height: 134px; }
+    .age_page .age_btnbox .age-bg {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-image: url("../imgs/age_img/age_btn.png"); }
+    .age_page .age_btnbox > a {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 50%;
+      height: 100%;
+      z-index: 500; }
+      .age_page .age_btnbox > a.yesBtn {
+        left: 0; }
+        .age_page .age_btnbox > a.yesBtn:hover ~ div {
+          background-image: url("../imgs/age_img/age_yes.png"); }
+      .age_page .age_btnbox > a.noBtn {
+        right: 0; }
+        .age_page .age_btnbox > a.noBtn:hover ~ div {
+          background-image: url("../imgs/age_img/age_no.png"); }
+
+        .age_page .age_logo img{
+        	position: absolute;
+    		top: 25%;
+    		left: 25%;
+			width:200px;
+			 margin-left:-4px;
+			}

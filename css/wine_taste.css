@@ -1,0 +1,54 @@
+/*------仿宋體----*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+.container{
+    position: absolute;
+    top:50%;
+
+
+}
+.panel-heading a:hover{
+    color: #f5f0e4;
+}
+.box_white {
+    width: 210px;
+    right: -1096px;
+    left: 0px;
+    margin: auto;
+    bottom: 212px;
+    position: absolute;
+}
+.box_white h3 {
+    line-height: 2;
+    color: #6b1219;
+}
+#tab1,#tab2,#tab3,#tab4{
+    background-color: #000;
+    color: #f5f0e4;
+
+
+}
+#aaa,#bbb,#ccc,#ddd{
+    background-color: #6b1219;
+}
+
+
+.panel-collapse li a{
+    line-height: 28px;
+    color: #fff;
+
+}
+
+.panel-collapse li a:hover{
+    text-decoration: none;
+    border-left: 5px solid #000;
+    transition: .3s;
+
+}
+
+#wines img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    right: -50%;
+    bottom: 50%;
+}

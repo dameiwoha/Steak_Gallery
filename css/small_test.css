@@ -1,0 +1,200 @@
+/*------仿宋體----*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+footer{
+    z-index: 100;
+    background-color:#000000;
+}
+
+.bar{
+    z-index: 100;
+    position: fixed;
+}
+
+.game_big{
+    width: 100%;
+    height: 82vh;
+    margin: auto;
+    /*top: 8vh;*/
+    position: relative;
+}
+
+.game{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /*outline:1px solid #f00;*/
+}
+.game ul{
+    /* top: 0;
+    left: 0; */
+}
+
+.game ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+
+}
+
+.game ul li.now{
+    display: none;
+}
+
+
+.game .wine_starbtn{
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 70%;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding:15px 50px;
+    border: 1px solid #Fa0;
+    background-color:#e1bb56;
+    background-image: linear-gradient(262deg, #e1bb56 0%, #f7ee47 50%, #e1bb56 100%);
+    border-radius: 1500px;
+    color: #000;
+}
+.game .wine_starbtn:hover{
+
+    color: #6b1219;
+    animation: ss .8s linear infinite alternate;
+}
+@keyframes ss{
+    0%{ transform: translateY(-4px); }
+    40%{ transform: translateY(4px); }
+}
+
+
+#wine_000{
+    background-image: url('../imgs/wine_test/wine_01_00.jpg');
+    background-size: cover;
+    filter:brightness(90%);
+    z-index: 10;
+    text-align: center;
+
+}
+
+#wine_000 h1{
+    position: relative;
+    font-size: 5em;
+    font-weight: normal;
+    color: #f8f8f8;
+    top: 15%;
+    line-height: 2em;
+    font-family: cwTeXFangSong;
+}
+.game h2{
+    color: #fff;
+
+}
+#wine_000 img{
+    position: relative;
+    display: inline;
+    bottom: -0.15em;
+    height: 1em;
+}
+#wineP{
+    height: 250px;
+    margin-left: 25%;
+    margin-top:6.5%;
+    position: relative;
+    font-size: 1.4vw;
+    line-height: 40px;
+    text-align: center;
+
+
+
+}
+#wine_001{
+    background: url('../imgs/wine_test/wine_01_01.jpg') no-repeat;
+    background-color: rgba(0,0,0,.3);
+    background-size: cover;
+    z-index: 9;
+}
+
+#wine_002{
+    background: url('../imgs/wine_test/summer_drinks_312342.jpg') no-repeat;
+    background-size: cover;
+    z-index: 8;
+
+}
+#wine_003{
+    background: url('../imgs/wine_test/wine_01_03.jpg') no-repeat;
+    background-color: rgba(0,0,0,.3);
+    background-size: cover;
+    z-index: 7;
+}
+#wine_004{
+    background: url('../imgs/wine_test/25320421.jpg') no-repeat;
+    background-color: rgba(0,0,0,.3);
+    background-size: 100%;
+    z-index: 6;
+}
+
+#wine_005{
+    background-color: #faa;
+    background-color: #6b1219;
+    background-size: cover;
+    z-index: 5;
+    padding: 30px;
+    position: absolute;
+}
+.game .qqq {
+
+    position: absolute;
+    height: 250px;
+    top: 25%;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border:none;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10px;
+
+}
+
+fieldset h2{
+    font-size: 2em;
+}
+fieldset label{
+    display: block;
+    font-size: 1.5em;
+    margin-left: 20%;
+    line-height: 45px;
+}
+
+.wine_end{
+    padding: 20px;
+    height: 45%;
+    top: 30%;
+    text-align: center;
+    /* background-color: #f00; */
+}
+.wine_end img{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+.wine_end a{
+    clear: both;
+    text-decoration: none;
+    position: relative;
+}
+.wine_endP{
+    position: relative;
+    top: 10%;
+    font-size: 3em;
+    text-align: center;
+    height: 10%;
+    margin-bottom: 5%;
+
+}

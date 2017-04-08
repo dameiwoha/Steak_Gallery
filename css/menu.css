@@ -1,0 +1,33 @@
+.bigmenu{
+    width: 100%;
+    height: 90vh;
+    background: url('../imgs/menutablebag.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.menuicon_big{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    right: 5%;
+    top: 11%;
+
+}
+.menuicon_big a{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    /*background:url('../imgs/menuicon.png') 50% 90% no-repeat ;*/
+    background: url('../imgs/sghome/icon_01.png') no-repeat #6b1219 48%;
+    background-size:98%;
+
+
+}
+.menuicon_big td{
+    text-align: center;
+    font-size: 1.3vw;
+    color: #555;
+    line-height: 40px;
+}
+

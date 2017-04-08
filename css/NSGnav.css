@@ -1,0 +1,315 @@
+/*------仿宋體----*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+
+.bar {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    background-color: #000;
+}
+
+#logo {
+    position: absolute;
+    height: 80%;
+    padding: 1%
+}
+
+.nav_header {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 10;
+}
+
+.nav_header li {
+    display: inline-block;
+    padding: 0 1em;
+    position: relative;
+}
+
+.class {
+    padding: 0;
+}
+
+.nav_header li a {
+
+    font-size: 1.3vw;
+    color: #f5f0e4;
+    text-decoration: none;
+    line-height: 47px;
+
+}
+
+.nav_header a:hover {
+    color: #e1bb56;
+}
+
+.flyout {
+    position: relative;
+}
+
+.flyout:hover .dropdown {
+    left: 0;
+}
+
+.dropdown li {
+    border: 1px solid #000;
+    border-bottom-color: #fff;
+
+    display: list-item;
+
+}
+
+.dropdown a {
+    color: #f5f0e4;
+    /*  display: inline-block; */
+    line-height: 40px;
+
+}
+
+.dropdown {
+    position: absolute;
+    background-color: #000;
+    top: 100%;
+    left: -99999px;
+    margin-left: -10%;
+    width: 180%;
+    overflow: hidden;
+}
+
+.dropdown li a:hover {
+    /*  background-color: #6b1219; */
+}
+
+.redbar {
+    width: 100%;
+    height: 10px;
+    background-color: #6b1219;
+}
+
+/*------------------------------- footer  CSS 開始-------------------------------------------*/
+
+body {
+
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+body:after {
+    content: '';
+    display: block;
+    clear: both;
+    padding-bottom: 150px;
+}
+body::-webkit-scrollbar{width: 12px;}
+body::-webkit-scrollbar-track {
+    background-color: #000;
+    border-left: 1px solid #000;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #6b1219;
+}
+input:focus{outline: none;}
+select:focus{outline: none;}
+
+footer {
+    height: 130px;
+    background-color: rgba(0, 0, 0, .85);
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer #foot_h2 {
+    color: #f8f8f8;
+    text-align: center;
+    line-height: 25px;
+    padding: 4px 0 4px 0;
+    font-weight: normal;
+    font-size: 22px;
+
+}
+
+footer .cnt {
+    color: rgba(255, 255, 255, .9);
+    font-size: 1vw;
+    text-transform: uppercase;
+    /*line-height: 1;*/
+    display: block;
+    text-align: center;
+    margin-top: 6px;
+
+}
+
+.bk {
+    margin-top: 5px;
+    margin-bottom: -2px;
+}
+
+.cnt ul li {
+    display: inline;
+    line-height: 35px;
+}
+
+.cnt li {
+    padding-left: 15px;
+}
+
+.cnt li::before {
+    content: "";
+    margin-right: 8px;
+    display: inline-block;
+    border-top: solid 1px #fff;
+    border-right: solid 1px #fff;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -1px;
+}
+
+.cnt li a {
+    position: relative;
+    color: rgba(255, 255, 255, .9);
+    text-decoration: none;
+}
+
+.cnt ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -5px;
+    background-color: #6B1219;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.cnt ul li a:hover:after {
+    width: 100%;
+}
+
+#dateof {
+    background: #f5f0e4 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 90% 30% no-repeat;
+    background-color: #f5f0e4;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 1vw;
+    padding: 1px 0;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+/*.label-car {*/
+/*display: inline-flex;*/
+/*font-size: 1vw;*/
+/*}*/
+
+#time,#people {
+    color: #000;
+    background:-webkit-linear-gradient(#f5f0e4, #f5f0e4 40%, #f5f0e4);
+    background-color: #f5f0e4;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 1vw;
+    padding: 1px 0px 0px 5px;
+    width: 150px;
+}
+
+
+#enter_footer {
+    background-color: #6B1219;
+    border: none;
+    border-radius: 18px;
+    padding: 1px 60px;
+    width: 150px;
+    color: #fff;
+    text-decoration: none;
+}
+#enter_footer:hover {
+    background-color: #000;
+    border: 1px solid #ccc;
+}
+/*------------------------------- footer　外掛  CSS 開始-------------------------------------------*/
+
+
+
+/*.btn {*/
+    /*display: inline-block;*/
+    /*text-decoration: none;*/
+    /*padding: 14px;*/
+    /*background: #444;*/
+    /*color: white;*/
+/*}*/
+
+/*.btn:hover {*/
+    /*background: #ccc;*/
+    /*transition: all .3s;*/
+    /*color: #555;*/
+/*}*/
+.form_all{
+    outline: 1px solid #6b1219;
+    width: 500px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 50px;
+}
+.modaal-content-container h1{
+    width: 195px;
+    right: 0;
+    left: 0;
+    margin: -16px auto;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    color: #6b1219;
+}
+.info1_1{
+    width: 550px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    line-height: 2;
+    padding: 20px 0 0 0;
+}
+.form-group {
+    line-height: 3;
+    font-size: 20px;
+    color: #000;
+}
+.form-group_a{
+    left: 350px;
+    position: relative;
+}
+
+button.btn_out {
+    width: 50px;
+    height: 50px;
+}

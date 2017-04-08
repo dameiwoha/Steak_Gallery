@@ -1,0 +1,296 @@
+*{
+    outline: 0 none;
+}
+
+body{
+    background-color: #f5f0e4;
+    height: 2350px;
+}
+
+.bef_title {
+
+    height: 220px;
+    background-color: #f5f0e4;
+    text-align: center;
+}
+
+
+
+.bef_title img{
+    height: 250px;
+    vertical-align: middle;
+}
+
+
+
+.beef_h2{
+    color: #f8f8f8;
+    font-size: 5vw;
+    position: relative;
+    top: -70%;
+    font-weight: normal;
+    letter-spacing: .3em;
+    font-family: cwTeXFangSong;
+
+}
+/*.beef_h2:after*/
+/*{*/
+    /*content: '';*/
+    /*display: block;*/
+    /*background: #fff;*/
+    /*height: 1px;*/
+    /*width:4%;*/
+    /*position: absolute;*/
+    /*top: 45%;*/
+    /*left:35%;*/
+/*}*/
+
+/*.beef_h2:before{*/
+    /*content: '';*/
+    /*display: block;*/
+    /*background: #fff;*/
+    /*height: 1px;*/
+    /*width:4%;*/
+    /*position: absolute;*/
+    /*top: 45%;*/
+    /*right: 36%;*/
+/*}*/
+
+.cuts{text-align: center;}
+
+.bull{
+    height: 630px;
+    width: 1000px;
+    position: relative;
+    margin: 4% auto;
+    right: 0;
+    left: 0;
+}
+
+.bullImg{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    left: 50px;
+    top:0px;
+}
+
+
+#Layer_1_1_{
+    width: 100%;
+}
+
+
+.area{
+    fill:#4d4542;
+    cursor:pointer;
+    transition:all 0.3s;
+    opacity:0.55;
+}
+.area:hover{
+    fill:#cd483f;
+    opacity:0.8;
+}
+.box-group{
+    width: 300px;
+}
+.box-item{
+    display: none;
+    background-color: #ddd;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 610px;
+    left: 650px;
+}
+.closeInner{
+    position: absolute;
+}
+.box-content{
+
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+svg {
+    display: block;
+    width: 72.5%;
+    position: absolute;
+    top: -9px;
+    left: 190px;
+
+}
+.group1 img{
+    margin:30px 150px;
+}
+.group h2{
+    font-size: 40px;
+    margin: 20px 0 0 220px;
+    color: #fff;
+}
+
+/*==================================牛的燈箱=================================================*/
+.bef_big01 ,.bef_big02{
+    width: 1050px;
+    height: 600px;
+    box-shadow: 0 0 10px 1px #000;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    visibility: hidden;
+}
+.bef_big01{
+    background: url('../imgs/beef/beef_rib.png') no-repeat;
+    background-size: cover;
+}
+.bef_big02{
+    background: url('../imgs/beef/beef_shortloin.png') no-repeat;
+    background-size: cover;
+}
+
+.bef_big01 .bef-close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    top: -15px;
+    right: -15px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.bef_big02 .bef-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #FFF;
+    text-decoration: none;
+    top: -15px;
+    right: -15px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.bef_msg{
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    background-color: rgba(0,0,0,.8);
+    top: 0px;
+    left: 0;
+    z-index: 11;
+    display: none;
+}
+
+
+
+
+
+
+
+
+#bef_knows {
+    height: 70vh;
+    padding: 60px;
+    box-sizing: border-box;
+    }
+#bef_knows_txt{
+    /*display: block;*/
+    height: 400px;
+    text-align: justify;
+    float: left;
+
+
+}
+#bef_knows_txt h2{
+    color: #6B1219;
+    font-size: 2.5vw;
+    line-height: 1.4;
+    font-weight: 700;
+    font-weight: normal;
+    font-family: cwTeXFangSong;
+
+}
+#bef_knows_txt h3{
+
+    font-size: 1.3vw;
+    line-height: 3;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+}
+
+.lg_h3{
+    color: #000;
+}
+
+/*.bef_knows_right img ,.bef_knows_left img {*/
+    /*display: block;*/
+    /*height: 800px;*/
+/*}*/
+
+
+
+.bef_knows_right{
+    display: inline-block;
+    /*margin-left: 30px;*/
+}
+.bef_knows_left{
+    display: inline-block;
+}
+.bef_knows_all{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.bef_knows_left img, .bef_knows_right img{
+    width: 85%;
+    height: auto;
+}
+
+.bef_prime{
+    float: right;
+}
+
+.bef_prime_h2{
+    color: #6b1219;
+    font-size: 2.5vw;
+    line-height: 1.4;
+    font-weight: 700;
+    font-weight: normal;
+    font-family: cwTeXFangSong;
+
+
+
+}
+.bef_prime img{
+    width:90%;}
+
+.goTop{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 9px;
+    bottom: 138px;
+    border:1px solid #6B1219;
+    color: #666;
+    line-height: 40px;
+    display: none;
+    z-index: 10;
+}
+.goTop i{
+    color:#6b1219;
+}
+

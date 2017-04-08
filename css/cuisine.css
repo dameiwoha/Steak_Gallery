@@ -1,0 +1,182 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+body{
+    background-color: #f6efe4;
+}
+
+.cuisine_table{
+    position: relative;
+    background-image: url('../imgs/cuisine/cuisine_01_01.jpg');
+    background-size: cover;
+    height:55vh;
+    z-index: -1;
+}
+.cuisine_table1 img{
+    width: 70%;
+    margin-left: 15%;
+
+}
+.cuisine_table1:before{
+
+    display: block;
+    position: absolute;
+    color: #fff;
+    width: 33.33333%;
+    text-align: center;
+    bottom: 43%;
+    font-size: 1.3vw;
+}
+#cuisine_table1:before{
+    content: "溫烤法式芥末子羊排";
+}
+#cuisine_table2:before{
+    content: "蒸烤加拿大纖活龍蝦";
+}
+#cuisine_table3:before{
+    content: "厚切紐約客牛排";
+}
+h1.cui_w_h1,h1.c-sm-12{
+    position: absolute;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    padding-left: 5%;
+    letter-spacing: .3em;
+    bottom: 12%;
+    font-weight: normal;
+    font-family: cwTeXFangSong;
+}
+.cuisine_meal{
+    height: 60vh;
+}
+.cuisine_wine{
+    background: url(../imgs/cuisine/cuisine_03_01.png) no-repeat;
+    background-color: #13110E;
+    height: 30vh;
+    margin-top: 5vh;
+    position: relative;
+}
+.cui_w_h1{
+    margin-bottom: 15px;}
+.steak_wine {
+
+    padding:30px 10px 10px 10px;
+    position: relative;
+    text-align: center;
+}
+.steak_wine img{
+    width: 17%;
+}
+.steak_wine h2{color: #6B1219;}
+.steak_wine p{
+    line-height: 28px;
+    color: #000;
+}
+.btn-buy h3{color: #6B1219;}
+.btn-buy h3:hover{ color: #000;}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.m_big1 ,.m_big2, .a_big1{
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0 0 10px 1px #000;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    visibility: hidden;
+}
+.m_big1{
+    background: url('../imgs/cuisine_img/big_m01.jpg') no-repeat;
+    background-size: cover;
+}
+.m_big2{
+    background: url('../imgs/cuisine_img/big_m02.jpg') no-repeat;
+    background-size: cover;
+}
+.a_big1{
+    background: url('../imgs/cuisine_img/big_a01.jpg') no-repeat;
+    background-size: cover;
+}
+.m_big1 .btn-close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    top: -15px;
+    right: -15px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.m_big2 .btn-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #FFF;
+    text-decoration: none;
+    top: -15px;
+    right: -15px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.a_big1 .btn-close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    top: -15px;
+    right: -15px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.m_big1 p {
+    color:#fff;
+    font-size: 1.2vw;
+    margin-top: 460px;
+    line-height: 28px;
+}
+.m_big2 p{
+    color:#fff;
+    font-size: 1.2vw;
+    background-color: rgba(0,0,0,.6);
+    line-height: 32px;
+}
+.cui_msg{
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    background-color: rgba(0,0,0,.8);
+    top: 0px;
+    left: 0;
+    z-index: 11;
+    display: none;
+}
+
+
+.goTop{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 9px;
+    bottom: 138px;
+    border:1px solid #6B1219;
+    color: #666;
+    line-height: 40px;
+    display: none;
+    z-index: 10;
+}
+.goTop i{
+    color:#6b1219;
+}
