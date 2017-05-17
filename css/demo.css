@@ -38,6 +38,7 @@ a {
 .cu_slider {
 	/*width: 100%;
 	position: relative;*/
+	    margin-top: 50px;
 }
 
 .cu_slider > header {

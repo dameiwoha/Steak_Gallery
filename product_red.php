@@ -75,7 +75,7 @@ $result = $mysqli->query($sql);
 <!-- menu-->
 
 <div class="c-sm-12 background_div">
-    <div class="c-sm-2 wine_box">
+    <div class="c-xs-12 c-sm-2 wine_box">
         <div class="wine_item">
             <div class="wine_title" style="letter-spacing:50px;">價格</div>
             <div class="price">
@@ -125,19 +125,19 @@ $result = $mysqli->query($sql);
             </div>
         </div>
         <div class="ad">
-            <div class="wine_ad">
+            <div class="wine_ad c-xs-img">
                 <a href="winetaste.php"><img src="imgs/wine_04_02.png"></a>
                 <a href="winetaste.php"><img src="imgs/wine_04_01.png"></a>
             </div>
-            <div class="wine_ad1">
+            <div class="wine_ad1 c-xs-img">
                 <a href="winetaste.php"><img src="imgs/wine_04_04.png"></a>
                 <a href="winetaste.php"><img src="imgs/wine_04_03.png"></a>
             </div>
-            <div class="wine_ad2">
+            <div class="wine_ad2 c-xs-img">
                 <a href="find_wine.php"><img src="imgs/wine_04_06.png"></a>
                 <a href="find_wine.php"><img src="imgs/wine_04_05.png"></a>
             </div>
-            <div class="wine_ad3">
+            <div class="wine_ad3 c-xs-img">
                 <a href="small_test.php"><img src="imgs/wine_04_08.png"></a>
                 <a href="small_test.php"><img src="imgs/wine_04_07.png"></a>
             </div>
@@ -148,7 +148,7 @@ $result = $mysqli->query($sql);
     <div class="c-sm-9 wine_products_box">
         <?php if ($totalPages)
             while ($row = $result->fetch_assoc()): ?>
-                <ul class="thumbnail">
+                <ul class="c-xs-12 c-sm-4 thumbnail">
                     <li>
                         <a class="single_product" href="wine.php?sid=<?= $row['sid'] ?>">
                             <img src="imgs/small/<?= $row['p_id'] ?>.png"></a>
@@ -178,7 +178,7 @@ $result = $mysqli->query($sql);
             <?php endwhile; ?>
     </div>
 </div>
-<div class="c-sm-12">
+<div class="c-xs-12 c-sm-12">
     <nav aria-label="Page navigation">
         <ul class="pagination">
             <li>

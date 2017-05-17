@@ -1,63 +1,101 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
-body{
-    background-color: #f6efe4;
+.lightbody{
+    background-color: #f7ede3;
 }
 
 .cuisine_table{
     position: relative;
     background-image: url('../imgs/cuisine/cuisine_01_01.jpg');
     background-size: cover;
-    height:55vh;
-    z-index: -1;
+    /*min-height: 300px;*/
+    min-height: 24vw;
+    
 }
+
+
 .cuisine_table1 img{
-    width: 70%;
     margin-left: 15%;
-
+    width: 70%;
 }
-.cuisine_table1:before{
-
-    display: block;
-    position: absolute;
+.cuisine_table1 p{
     color: #fff;
-    width: 33.33333%;
     text-align: center;
-    bottom: 43%;
-    font-size: 1.3vw;
+    margin-top: 10px;
 }
-#cuisine_table1:before{
-    content: "溫烤法式芥末子羊排";
+
+@media (max-width: 768px) {
+    /*.cuisine_table{
+    min-height: 80px;
+
 }
-#cuisine_table2:before{
-    content: "蒸烤加拿大纖活龍蝦";
+    .cuisine_table1 img,
+    .cuisine_table1 p{
+    display: none;
+ }*/
+
 }
-#cuisine_table3:before{
-    content: "厚切紐約客牛排";
-}
-h1.cui_w_h1,h1.c-sm-12{
-    position: absolute;
-    font-size: 5vw;
-    color: white;
+
+.cuisine_h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
     text-align: center;
-    padding-left: 5%;
-    letter-spacing: .3em;
-    bottom: 12%;
-    font-weight: normal;
     font-family: cwTeXFangSong;
+    font-size: 3.2vw;
+
 }
+.cuisine_h1_2{
+    color:#a94442;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: cwTeXFangSong;
+    font-size: 3.2vw;
+    margin-top: 0px;
+}
+
+
+
 .cuisine_meal{
     height: 60vh;
 }
-.cuisine_wine{
-    background: url(../imgs/cuisine/cuisine_03_01.png) no-repeat;
-    background-color: #13110E;
-    height: 30vh;
-    margin-top: 5vh;
-    position: relative;
+
+
+.cu_hr{
+    border-top: 1px solid #a94442;
+    margin-top: 40px;
+        display: block;}
+.page-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 30px;
 }
-.cui_w_h1{
-    margin-bottom: 15px;}
+.page-title span {
+    font-style: normal;
+    font-weight: 500;
+    background: #f7ede3;
+    padding: 0 30px;
+    min-width: 180px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+@media (max-width: 400px){
+ .cuisine_table{
+    min-height: 80px;
+
+}
+    .cuisine_table1 img,
+    .cuisine_table1 p{
+    display: none;
+ }
+
+.page-title span {
+    padding: 15px 30px;
+    min-width: 130px;
+}
+}
+
 .steak_wine {
 
     padding:30px 10px 10px 10px;
@@ -76,8 +114,9 @@ h1.cui_w_h1,h1.c-sm-12{
 .btn-buy h3:hover{ color: #000;}
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 .m_big1 ,.m_big2, .a_big1{
-    width: 1000px;
+   
     height: 600px;
+    max-width: 1000px;
     box-shadow: 0 0 10px 1px #000;
     padding: 20px;
     position: fixed;
@@ -95,6 +134,9 @@ h1.cui_w_h1,h1.c-sm-12{
 .m_big2{
     background: url('../imgs/cuisine_img/big_m02.jpg') no-repeat;
     background-size: cover;
+    text-align: center;
+    padding: 0;
+
 }
 .a_big1{
     background: url('../imgs/cuisine_img/big_a01.jpg') no-repeat;
@@ -141,16 +183,19 @@ h1.cui_w_h1,h1.c-sm-12{
 }
 
 .m_big1 p {
-    color:#fff;
-    font-size: 1.2vw;
-    margin-top: 460px;
-    line-height: 28px;
+    color: rgba(255, 255, 255, 0.9);
+        font-size: 1.2em;
+    margin-top: 420px;
+    line-height: 30px;
+    display: inline-block;
 }
 .m_big2 p{
     color:#fff;
-    font-size: 1.2vw;
-    background-color: rgba(0,0,0,.6);
-    line-height: 32px;
+       font-size: 1.2em;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 37px;
+    padding:10px;
 }
 .cui_msg{
     position: absolute;
@@ -162,7 +207,30 @@ h1.cui_w_h1,h1.c-sm-12{
     z-index: 11;
     display: none;
 }
+@media (max-width: 400px){
 
+    .m_big1 ,.m_big2, .a_big1{
+    width: 300px;
+    height: 180px;
+    box-shadow: 0 0 10px 1px #000;
+}
+
+    .cui_msg{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0,0,0,.8);
+    top: 0px;
+    left: 0;
+    z-index: 11;
+    display: none;
+}
+
+ .m_big2 p{
+    display: none;
+}
+
+}
 
 .goTop{
     width: 40px;

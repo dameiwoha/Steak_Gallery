@@ -30,7 +30,7 @@ $row = $result->fetch_assoc();
 <body>
 <?php include __DIR__ . '/NSGnav.php' ?>
 <div class="c-sm-12 background_div">
-    <div class="c-sm-2 wine_box">
+    <div class="c-xs-12 c-sm-2 wine_box">
         <div class="wine_item">
             <div class="wine_title" style="letter-spacing:50px;">價格</div>
             <div class="price">

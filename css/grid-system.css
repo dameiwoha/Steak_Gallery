@@ -25,6 +25,8 @@
 				max-width: 100%;
 				height: auto;
 			}
+
+
 			.c-xs-1{width: 8.33333%;}
 			.c-xs-2{width: 16.66666%;}
 			.c-xs-3{width: 25%;}
@@ -36,7 +38,8 @@
 			.c-xs-9{width: 75%;}
 			.c-xs-10{width: 83.33333%;}
 			.c-xs-11{width: 91.66666%;}
-			.c-xs-12{width: 100%;}
+			.c-xs-12{width: 100%; }
+			.c-xs-img{display: none;}
 
             .c-xs-offset-1{margin-left: 8.33333%;}
             .c-xs-offset-2{margin-left: 16.66666%;}

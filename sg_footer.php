@@ -5,7 +5,31 @@
 <link rel="stylesheet" href="css/sweet-alert.css">
 <script src="js/sweet-alert.js"></script>
 
-     <footer class=" c-xs-12 c-sm-12 c-lg-2 x_123">
+<footer class="newfooter">
+	<div class="container">
+		<div class="row">
+			<div class="cnt">
+			 <ul class="footer_right">
+				 <li><a href="#">
+					 <i class="fa fa-home" aria-hidden="true"> 
+						 台北市大安區安和路一段49巷10號1樓
+						</i></a>
+						 </li>
+				 <li><a href="#"><i class="fa fa-phone" aria-hidden="true"> (02)2775-3011</i></a></li>
+				 <li><a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+				 <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+				 <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+
+			 </ul>
+			 <p class="footer_left">	
+			 © 2017 steak gallery
+			 </p>
+		 </div>
+		</div>
+	</div>
+</footer>
+
+     <!--<footer class=" c-xs-12 c-sm-12 c-lg-2 x_123">
       <h2 id="foot_h2">未滿十八歲請勿飲酒&nbsp;&nbsp;&nbsp;酒後不開車&nbsp;&nbsp;&nbsp;安全有保障</h2>
 		 <div class="bk"><span class="c-xs-3 c-sm-2 ">book a reservation </span>
 
@@ -31,7 +55,7 @@
 				 <option value="7P">7位</option>
 			 </select>
 			 <a href="#inline" data-modaal-type="inline" data-modaal-animation="fade" id="enter_footer" class="btn modaal" style="color:#fff; font-size:1.2vw; ">訂位</a>
-<!--			 <a href="#inline"> <input type="submit" value="訂位"  class="c-xs-2 c-sm-2 c-lg-2" "></a>-->
+
 		 </div>
 		 <div class="cnt c-xs-12 c-sm-12">
 			 <ul>
@@ -44,7 +68,7 @@
 			 <i class="fa fa-copyright c-xs-6 c-sm-6" style="font-size: 10px; text-align: center;">steak gallery</i>
 
 		 </div>
-	</footer>
+	</footer>-->
 
 
 

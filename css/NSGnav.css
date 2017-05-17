@@ -3,92 +3,65 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
 
-
-.bar {
-    position: relative;
-    width: 100%;
-    height: 12vh;
-    background-color: #000;
+.mynavbar{
+    margin-bottom: 0px;
+    background-color: #111111;
+    border-color: #111111;
+    border-radius: 0px;
 }
 
-#logo {
-    position: absolute;
-    height: 80%;
-    padding: 1%
+.mynavbar .navbar-nav > li > a {
+    color: #9d9d9d;
 }
 
-.nav_header {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    z-index: 10;
+.mynavbar .navbar-nav > li > a:hover{
+    color: #ccc;
 }
 
-.nav_header li {
-    display: inline-block;
-    padding: 0 1em;
-    position: relative;
+
+.mynavbar .navbar-nav > li > a:focus {
+  color: #cc5859;
+  background-color: transparent;
 }
 
-.class {
-    padding: 0;
+
+.mynavbar .navbar-nav > .open > a,
+.mynavbar .navbar-nav > .open > a:hover,
+.mynavbar .navbar-nav > .open > a:focus {
+   color: #cc5859;
+    background-color: transparent;
 }
 
-.nav_header li a {
+.mydropdown-menu{
+     background-color: #111111;
+}
 
-    font-size: 1.3vw;
-    color: #f5f0e4;
+.mydropdown-menu > li > a {
+    color: #ccc;
+}
+.mydropdown-menu > li > a:hover, 
+.mydropdown-menu > li > a:focus {
+    color: #cc5859;
     text-decoration: none;
-    line-height: 47px;
-
+    background-color:transparent;
 }
 
-.nav_header a:hover {
-    color: #e1bb56;
+.mydropdown-menu .divider {
+   
+    background-color: #333;
 }
 
-.flyout {
-    position: relative;
+.mynavbar .navbar-toggle {
+    border-color: rgba(221, 221, 221, 0);
+}
+@media (min-width: 768px) {
+    .mynav > li {
+    margin-right: 20px;
+    }   
 }
 
-.flyout:hover .dropdown {
-    left: 0;
-}
 
-.dropdown li {
-    border: 1px solid #000;
-    border-bottom-color: #fff;
 
-    display: list-item;
-
-}
-
-.dropdown a {
-    color: #f5f0e4;
-    /*  display: inline-block; */
-    line-height: 40px;
-
-}
-
-.dropdown {
-    position: absolute;
-    background-color: #000;
-    top: 100%;
-    left: -99999px;
-    margin-left: -10%;
-    width: 180%;
-    overflow: hidden;
-}
-
-.dropdown li a:hover {
-    /*  background-color: #6b1219; */
-}
-
-.redbar {
-    width: 100%;
-    height: 10px;
-    background-color: #6b1219;
-}
 
 /*------------------------------- footer  CSS 開始-------------------------------------------*/
 
@@ -103,7 +76,7 @@ body:after {
     content: '';
     display: block;
     clear: both;
-    padding-bottom: 150px;
+    /*padding-bottom: 150px;*/
 }
 body::-webkit-scrollbar{width: 12px;}
 body::-webkit-scrollbar-track {
@@ -116,43 +89,38 @@ body::-webkit-scrollbar-thumb {
 input:focus{outline: none;}
 select:focus{outline: none;}
 
-footer {
-    height: 130px;
-    background-color: rgba(0, 0, 0, .85);
-    position: fixed;
-    bottom: 0;
-    color: #fff;
-    font-size: 1.2vw;
-    text-transform: uppercase;
-    padding-top: 5px;
-    text-align: center;
+.newfooter {
+    
+     background-color: rgb(17, 17, 17);
+
+    padding: 10px 0;
 }
 
-footer #foot_h2 {
-    color: #f8f8f8;
-    text-align: center;
-    line-height: 25px;
-    padding: 4px 0 4px 0;
-    font-weight: normal;
-    font-size: 22px;
 
-}
 
-footer .cnt {
+.newfooter  .cnt {
     color: rgba(255, 255, 255, .9);
-    font-size: 1vw;
+   
     text-transform: uppercase;
-    /*line-height: 1;*/
-    display: block;
-    text-align: center;
-    margin-top: 6px;
+    
 
 }
 
-.bk {
-    margin-top: 5px;
-    margin-bottom: -2px;
+.footer_right {
+    float: right;
+    margin-top: 23px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    
+    }
+
+.footer_left{
+    color: #ae8648;
+        font-size: 1.1em;
+    float: left;
+    margin-top: 32px;
 }
+
 
 .cnt ul li {
     display: inline;
@@ -163,7 +131,7 @@ footer .cnt {
     padding-left: 15px;
 }
 
-.cnt li::before {
+/*.cnt li::before {
     content: "";
     margin-right: 8px;
     display: inline-block;
@@ -175,7 +143,7 @@ footer .cnt {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-top: -1px;
-}
+}*/
 
 .cnt li a {
     position: relative;
@@ -260,19 +228,7 @@ footer .cnt {
 
 
 
-/*.btn {*/
-    /*display: inline-block;*/
-    /*text-decoration: none;*/
-    /*padding: 14px;*/
-    /*background: #444;*/
-    /*color: white;*/
-/*}*/
 
-/*.btn:hover {*/
-    /*background: #ccc;*/
-    /*transition: all .3s;*/
-    /*color: #555;*/
-/*}*/
 .form_all{
     outline: 1px solid #6b1219;
     width: 500px;

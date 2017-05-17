@@ -4,24 +4,23 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
-<!--    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"><!-- icon -->-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"><!-- 字型 -->-->
-<!--    <link rel="stylesheet" href="css/grid-system.css"><!-- 格線 -->-->
-<!--    <!-- inject:css -->-->
-<!--    <link rel="stylesheet" href="css/NSGnav.css">-->
-<!--    <link rel="stylesheet" href="css/cocoen.min.css">-->
-<!--    <link rel="stylesheet" href="css/demo.min.css">-->
-<!--    <link rel="stylesheet" href="css/sghome.css">-->
-<!--    <!-- endinject -->-->
-<!--    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"><!-- icon -->-->
-<!--    <link rel="stylesheet" href="css/NSGnav.css">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"><!-- 字型 -->-->
-<!--    <link rel="stylesheet" href="css/css_reset.css">-->
-<!---->
-<!--</head>-->
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"><!-- icon -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"><!-- 字型 -->
+    <link rel="stylesheet" href="css/grid-system.css"><!-- 格線 -->
+
+   
+    <link rel="stylesheet" href="css/cocoen.min.css">
+    <link rel="stylesheet" href="css/demo.min.css">
+    <link rel="stylesheet" href="css/sghome.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"><!-- icon -->
+  
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"><!-- 字型 -->
+    <link rel="stylesheet" href="css/css_reset.css">
+
+</head>
 
 
 
@@ -141,7 +140,7 @@
     <i class="fa fa-arrow-up"></i>
 </a>
 
-<footer class=" c-xs-12 c-sm-12 c-lg-2 " id="home_footer">
+<!--<footer class=" c-xs-12 c-sm-12 c-lg-2 " id="home_footer">
     <h2 id="foot_h2">未滿十八歲請勿飲酒&nbsp;&nbsp;&nbsp;酒後不開車&nbsp;&nbsp;&nbsp;安全有保障</h2>
     <div class="bk"><span class="c-xs-3 c-sm-2 ">book a reservation </span>
         <label for="dateof"></label>
@@ -168,7 +167,7 @@
         </select>
         <a href="#inline" data-modaal-type="inline" data-modaal-animation="fade" id="enter_footer" class="btn modaal"
            style="color:#fff; font-size:1.2vw; ">訂位</a>
-        <!--			 <a href="#inline"> <input type="submit" value="訂位"  class="c-xs-2 c-sm-2 c-lg-2" "></a>-->
+       
     </div>
     <div class="cnt c-xs-12 c-sm-12">
         <ul>
@@ -181,8 +180,12 @@
         <i class="fa fa-copyright c-xs-6 c-sm-6" style="font-size: 10px; text-align: center;">steak gallery</i>
 
     </div>
-</footer>
+</footer>-->
+</body>
 
+<?php include(__DIR__ . '/sg_footer.php') ?>
+
+</html>
 <!-- inject:js -->
 <script src="js/vendor/jquery.min.js"></script>
 <script src="js/vendor/requestAnimationFrame.min.js"></script>
@@ -217,5 +220,5 @@
 
 </script>
 
-</body>
-</html>
+<!--</body>
+</html>-->

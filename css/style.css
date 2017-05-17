@@ -3,7 +3,7 @@
 .mi-slider {
 	position: relative;
 	/*margin-top: -83px;*/
-	height: 490px;
+	height: 400px;
 }
 
 .mi-slider ul {
@@ -11,10 +11,11 @@
 	position: absolute;
 	width: 100%;
 	left: 0;
-	bottom: 140px;
+	/*bottom: 140px;*/
 	overflow: hidden;
 	text-align: center;
 	pointer-events: none;
+	/*margin-top: 30px;*/ 
 }
 
 .no-js .mi-slider ul {
@@ -64,8 +65,9 @@
 .mi-slider ul li h4 {
 	display: inline-block;
 	font-weight: 400;
-	font-size: 1.3vw;
+	font-size: 1.1vw;
 	padding: 20px 10px 0;
+	color: #6b1219;
 }
 
 .mi-slider ul li:hover {
@@ -74,11 +76,11 @@
 
 .mi-slider nav {
 	position: relative;
-	top: 400px;
+	top: 277px;
 	text-align: center;
 	max-width: 1000px;
 	margin: 0 auto;
-	border-top: 5px solid #6B1219;
+	border-top: 5px solid #a94442;
 }
 
 .no-js nav {
@@ -96,12 +98,13 @@
 	-webkit-transition: color 0.2s linear;
 	transition: color 0.2s linear;
 	font-size: 1.5vw;
+	text-decoration: none;
 
 }
 
 .mi-slider nav a:hover,
 .mi-slider nav a.mi-selected {
-	color: #000;
+	color: #a94442;
 }
 
 .mi-slider nav a.mi-selected:after,
@@ -118,7 +121,7 @@
 
 .mi-slider nav a.mi-selected:after {
 	border-color: transparent;
-	border-top-color: #6b1219;
+	border-top-color: #a94442;
 	border-width: 20px;
 	left: 50%;
 	margin-left: -20px;
@@ -126,7 +129,7 @@
 
 .mi-slider nav a.mi-selected:before {
 	border-color: transparent;
-	border-top-color: #6B1219;
+	border-top-color: #a94442;
 	border-width: 27px;
 	left: 50%;
 	margin-left: -27px;
