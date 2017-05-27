@@ -2,6 +2,9 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
+.lightbody {
+    background-color: #f7ede3;
+}
 
 .mynavbar{
     margin-bottom: 0px;
@@ -11,7 +14,7 @@
 }
 
 .mynavbar .navbar-nav > li > a {
-    color: #9d9d9d;
+    color: rgb(174, 134, 72);
 }
 
 .mynavbar .navbar-nav > li > a:hover{
@@ -20,7 +23,7 @@
 
 
 .mynavbar .navbar-nav > li > a:focus {
-  color: #cc5859;
+  color: #ccc;
   background-color: transparent;
 }
 
@@ -28,7 +31,7 @@
 .mynavbar .navbar-nav > .open > a,
 .mynavbar .navbar-nav > .open > a:hover,
 .mynavbar .navbar-nav > .open > a:focus {
-   color: #cc5859;
+   color: rgb(174, 134, 72);
     background-color: transparent;
 }
 
@@ -37,11 +40,11 @@
 }
 
 .mydropdown-menu > li > a {
-    color: #ccc;
+    color: rgb(174, 134, 72);
 }
 .mydropdown-menu > li > a:hover, 
 .mydropdown-menu > li > a:focus {
-    color: #cc5859;
+    color: #ccc;
     text-decoration: none;
     background-color:transparent;
 }
@@ -66,10 +69,8 @@
 /*------------------------------- footer  CSS 開始-------------------------------------------*/
 
 body {
-
     overflow: scroll;
     overflow-x: hidden;
-
 }
 
 body:after {
@@ -78,7 +79,7 @@ body:after {
     clear: both;
     /*padding-bottom: 150px;*/
 }
-body::-webkit-scrollbar{width: 12px;}
+/*body::-webkit-scrollbar{width: 12px;}
 body::-webkit-scrollbar-track {
     background-color: #000;
     border-left: 1px solid #000;
@@ -87,7 +88,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #6b1219;
 }
 input:focus{outline: none;}
-select:focus{outline: none;}
+select:focus{outline: none;}*/
 
 .newfooter {
     
@@ -115,8 +116,8 @@ select:focus{outline: none;}
     }
 
 .footer_left{
-    color: #ae8648;
-        font-size: 1.1em;
+    color: rgba(174, 134, 72, 0.56);
+    font-size: 1.1em;
     float: left;
     margin-top: 32px;
 }
@@ -128,7 +129,7 @@ select:focus{outline: none;}
 }
 
 .cnt li {
-    padding-left: 15px;
+    padding-right: 20px;
 }
 
 /*.cnt li::before {
@@ -147,21 +148,25 @@ select:focus{outline: none;}
 
 .cnt li a {
     position: relative;
-    color: rgba(255, 255, 255, .9);
+     color:#ae8648;
     text-decoration: none;
+}
+
+.cnt li a:hover{
+    color: rgba(255, 255, 255, .9);
 }
 
 .cnt ul li a::after {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     bottom: -5px;
-    background-color: #6B1219;
+    background-color: rgba(255, 255, 255, .8);
     -webkit-transform: none !important;
     -ms-transform: none !important;
     transform: none !important;
@@ -172,18 +177,7 @@ select:focus{outline: none;}
     width: 100%;
 }
 
-#dateof {
-    background: #f5f0e4 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 90% 30% no-repeat;
-    background-color: #f5f0e4;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    font-size: 1vw;
-    padding: 1px 0;
-    width: 150px;
-    border-radius: 15px;
-    border: none;
-}
+
 
 [type="date"]::-webkit-inner-spin-button {
     display: none;
@@ -193,10 +187,6 @@ select:focus{outline: none;}
     opacity: 0;
 }
 
-/*.label-car {*/
-/*display: inline-flex;*/
-/*font-size: 1vw;*/
-/*}*/
 
 #time,#people {
     color: #000;

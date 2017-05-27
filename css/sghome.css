@@ -165,11 +165,7 @@
     font-family:'Georgia';
 }
 
-#home_footer{
-    position: absolute;
-    bottom: 0;
-    height: 150px;
-}
+
 .goTop{
     width: 40px;
     height: 40px;
@@ -177,13 +173,13 @@
     position: fixed;
     right: 20px;
     bottom: 20px;
-    border:1px solid #6B1219;
-    color: #666;
+    border:1px solid #ae8648;
+    
     line-height: 40px;
     display: none;
     z-index: 10;
 }
 .goTop i{
-    color:#6b1219;
+    color:#ae8648;
 }
 

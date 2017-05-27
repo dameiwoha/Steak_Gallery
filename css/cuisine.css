@@ -97,21 +97,42 @@
 }
 
 .steak_wine {
-
-    padding:30px 10px 10px 10px;
-    position: relative;
+    margin-bottom: 20px;
     text-align: center;
 }
-.steak_wine img{
-    width: 17%;
+
+.myimg-res{
+    margin: 0 auto;
 }
-.steak_wine h2{color: #6B1219;}
+
+@media (min-width: 1200px){
+
+ .steak_wine .myimg-res{
+    width: 20%;
+}
+
+}
+
+
+.steak_wine h3{color: #6B1219;}
 .steak_wine p{
-    line-height: 28px;
-    color: #000;
+    line-height: 25px;
+    font-size: 1.1em;
 }
-.btn-buy h3{color: #6B1219;}
-.btn-buy h3:hover{ color: #000;}
+
+.steak_wine .mybuybtn{
+    background-color: #ae8648;
+    border-color: #ae8648;
+}
+
+.steak_wine .mybuybtn:hover{
+    color:#ae8648;
+    background-color: #f5f5f5;
+    border-color: #ae8648;
+}
+
+
+
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 .m_big1 ,.m_big2, .a_big1{
    

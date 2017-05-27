@@ -45,7 +45,6 @@
 <footer class=" c-xs-12 c-sm-12 c-lg-2 " id="home_footer">
     <h2 id="foot_h2">未滿十八歲請勿飲酒&nbsp;&nbsp;&nbsp;酒後不開車&nbsp;&nbsp;&nbsp;安全有保障</h2>
     <div class="bk"><span class="c-xs-3 c-sm-2 ">book a reservation </span>
-        <label for="dateof"></label>
         <input type="date" name="dateof" id="dateof" class="c-xs-2 c-sm-2">
         <select id="time" class="c-xs-3 c-sm-2 c-lg-2">
             <option value="1130">11:30</option>

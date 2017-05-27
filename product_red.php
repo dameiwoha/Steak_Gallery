@@ -225,10 +225,8 @@ $result = $mysqli->query($sql);
             </div>
 
     </div> <!--row-->
-
-
     
-</div> <!--  container-fliud 開始  -->
+</div> <!--  container-fliud 結束  -->
 
 </body>
 
@@ -277,8 +275,6 @@ $result = $mysqli->query($sql);
             console.log(data);
             calTotalQty(data);
 
-//            alert('商品已加入購物車');
-
             document.querySelector('.add_car').onclick =
                 $(function () {
                     swal({
@@ -286,15 +282,6 @@ $result = $mysqli->query($sql);
                         text: '眾多商品歡迎參考看看',
                         timer: 500
                     })
-//                        .then(
-//                        function () {},
-//                        // handling the promise rejection
-//                        function (dismiss) {
-//                            if (dismiss === 'timer') {
-//                                console.log('I was closed by the timer')
-//                            }
-//                        }
-//                    )
                 });
         }, 'json');
 

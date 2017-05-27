@@ -10,10 +10,11 @@ $page_name = 'cuisine';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/cuisine.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"><!-- icon -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"><!-- 字型 -->
     <!--<link rel="stylesheet" type="text/css" href="css/NSGnav.css">-->
-    <link rel="stylesheet" type="text/css" href="css/cuisine.css">
+    
     <!--<link rel="stylesheet" href="css/grid-system.css">-->
     <!--格線-->
     <link rel="stylesheet" type="text/css" href="css/style.css" /><!--cui_slider的css-->
@@ -140,29 +141,42 @@ $page_name = 'cuisine';
 
         
             <div class="col-xs-12 col-md-4 steak_wine">
-                <a href="wine.php?sid=7"><img src="imgs/small/r1017.png"></a>
-                <h2>Joseph Roty Marsannay Village En Ouzelois</h2>
-                <p style="font-size: 1vw;">
+                <a href="wine.php?sid=7"><img src="imgs/small/r1017.png" class="img-responsive myimg-res"></a>
+                <h3>Joseph Roty Marsannay Village En Ouzelois</h3>
+                <p >
                     有著豐富和複雜的香氣，如黑色水果，香草香料等。<br>
                     口感的單寧與酸度結構完整，水果風味十足。</p>
-                <p style="font-size: 1vw;">搭配美食:乾煎鴨胸跟莎朗牛排</p>
-                <a href="wine.php?sid=7" class="btn-buy"><h3>完整資訊</h3></a>
+                <p >搭配美食:乾煎鴨胸跟莎朗牛排</p>
+               
+                <a href="wine.php?sid=7">
+                     <button type="button" class="btn btn-primary mybuybtn">MORE
+                         </button>    
+                </a>
 
             </div>
             <div class="col-xs-12 col-md-4 steak_wine" >
-                <a href="wine.php?sid=44"><img src="imgs/small/c3013.png" style="width: 16%";></a>
-                <h2>FREIXENET CORDON ROSADO</h2>
-                <p style="font-size: 1vw;">顏色飽滿美麗的玫瑰色。黑葡萄帶出的沉穩單寧味與成熟草莓帶有的自然甜味形成完美的搭配。可以感受到草莓與華麗深厚風味的超人氣甜味玫瑰氣泡酒。</p>
-                <a href="wine.php?sid=41" class="btn-buy"><h3>完整資訊</h3></a>
+                <a href="wine.php?sid=44"><img src="imgs/small/c3013.png" class="img-responsive myimg-res"></a>
+                <h3>FREIXENET CORDON ROSADO</h3>
+                <p>顏色飽滿美麗的玫瑰色。黑葡萄帶出的沉穩單寧味與成熟草莓帶有的自然甜味形成完美的搭配。可以感受到草莓與華麗深厚風味的超人氣甜味玫瑰氣泡酒。</p>
+                <a href="wine.php?sid=44">
+                     <button type="button" class="btn btn-primary mybuybtn">MORE
+                         </button>    
+                </a>
             </div>
             <div class="col-xs-12 col-md-4 steak_wine">
-                <a href="wine.php?sid=35"><img src="imgs/cuisine/cuisine_04_02.png" style="width: 16%;"></a>
-                <h2>PACO & LOLA 2012</h2>
-                <p style="font-size: 1vw;">
+                <a href="wine.php?sid=35">
+                    <img src="imgs/cuisine/cuisine_04_02.png" class="img-responsive myimg-res" style="width: 20%;">
+                </a>
+                <h3>PACO & LOLA 2012</h3>
+                <p>
                     青蘋果、梨子、柑橘、桃子以及香草和細緻花香。<br>新鮮飽滿，滑潤的脂質口感如絲絹，<br>熱帶水果和礦物風味彼此和諧。
                 </p>
-                <p style="font-size: 1vw;">搭配美食:新鮮海鮮料理。</p>
-                <a href="wine.php?sid=32" class="btn-buy"><h3>完整資訊</h3></a>
+                <p>搭配美食:新鮮海鮮料理。</p>
+                <a href="wine.php?sid=35">
+                     <button type="button" class="btn btn-primary mybuybtn">MORE
+                         </button>    
+                </a>
+                 
             </div>
        
 
